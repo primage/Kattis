@@ -23,7 +23,7 @@ Question: From the starting clearing where my friend is, find the average time i
 
 This is a probability question, where the probablty of being at each clearing for each time step (time step: moving from one clearing to the next) is calculated. This is done by using the probabilty distribution from the previous step and calculating the probabilty distribution of the next step. At each step, the probabilty of being at the exit clearing is accumulated and used as the average time of exiting the woods.
 
-The calculation for expected time of exiting the wood is $E = 1*P_1 + 2*P_2 + 3*P_3 + ... + N*P_N$. Here, $P_i$ is the probabilty of being at the exit clearing at step i and $P_i$ is multiplied by the time it takes to take i steps (which is i minutes). This caulculation of E is within the absolute error of $10^{-5}$ if a large number of steps is taken, which in this case is achievable with 10,000 steps.
+The calculation for expected time of exiting the wood is E = 1*$P_1$ + 2*$P_2$ + 3*$P_3$ + ... + N*$P_N$. Here, $P_i$ is the probabilty of being at the exit clearing at step i and $P_i$ is multiplied by the time it takes to take i steps (which is i minutes). This caulculation of E is within the absolute error of $10^{-5}$ if a large number of steps is taken, which in this case is achievable with 10,000 steps.
 
 //
 Prim Pasuwan
